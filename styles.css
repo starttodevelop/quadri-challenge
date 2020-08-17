@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.cover{
+    
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.first-div{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 30%;
+    
+    
+}
+
+.lbox-one{
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    
+
+}
+
+.info-icon{
+    background-color:#00bcd4;
+    border: 2px solid ;
+    border-radius: 50%;
+    padding: 10px 6.5px;
+    background-color:#00bcd4;
+    margin-left: 2%;
+    margin-right: 25px;
+    color: white;
+    
+    
+}
+
+.info-name{
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 25px; */
+    font-size: 20px;
+}
+
+.info-name1{
+    font-weight: 600;
+}
+
+.info-name2{
+    font-weight: 300;
+}
+
+.info-plus{
+    border: 2px solid #eeeeee;
+    margin-left:5%;
+    padding: 8px 12px ;
+    background-color: #eeeeee;
+    border-radius: 30%;
+    color: black;
+}
+
+.lbox-two{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-width: 100%;
+    height: 30%;
+    padding-top: 15px;
+}
+
+.lbox-two i{
+color: lightgrey ;
+}
+
+.inbox{
+    padding-top: 25px;
+    font-size: 20px;
+    padding-left:35px;
+    
+}
+
+.inbox i{
+    padding-right: 15px;
+}
+
+.alerts{
+    font-size: 20px;
+    padding-left:35px;
+    padding-top:7px;
+    padding-bottom: 7px;
+}
+
+.alerts i{
+    padding-right: 15px;
+}
+
+.alerts-border{
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 1px 8px;
+    margin-left: 15px;
+    background-color: red;
+    color:white;
+}
+
+.overview{
+    font-size: 20px;
+    padding-left:3px;
+    border: 1px solid #00bcd4 ;
+    margin-left: 32px;
+    margin-right: 35px;
+    background-color: #00bcd4;
+    border-radius: 15px;
+}
+
+.overview i{
+    padding-right: 15px;
+}
+
+.lbox-three{
+    
+    margin-left: 25px;
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.lbox-three i{
+    color:gray;
+}
+
+.episode i{
+    padding-right: 19px;
+}
+
+.media i{
+    padding-right: 12px;
+}
+
+.materials i{
+    padding-right: 15px;
+}
+
+.contacts i{
+    padding-right:10px;
+}
+
+.arrow{
+    color: gray;
+    padding-left: 5px;
+}
+
+.lbox-four{
+    
+    margin-left: 25px;
+    font-size: 20px;
+    padding-top: 40px;;
+    
+}
+
+.lbox-four i{
+    color: gray;
+    padding-right: 10px;
+}
+
+.subs{
+    border: 2px solid red;
+    background-color: red;
+    border-radius: 15px;
+    color: white;
+    padding: 1px 3px;
+}
+
+.lbox-five{
+    margin-left: 25px;
+    font-size: 20px;
+    padding-top: 20px;
+    display: flex;
+    padding-top: 25px;
+
+}
+.podcaster-icon{
+    border: 2px solid #00bcd4;
+    background-color: #00bcd4;
+    border-radius: 50%;
+    padding: 15px 20px;
+}
+
+.podcaster{
+    padding-top: 7px;
+    padding-left:15px;
+}
+
+.pod{
+    padding-left:15px;
+    font-size: 15px;
+}
+
+.pod-icon{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+
+.pod-icon i{
+    background-color: #00bcd4;
+    border: 1px solid #00bcd4;
+    border-radius: 50%;
+    padding:3px 5px
+}
+.second-div{
+    background-color:rgb(194, 189, 189) ;
+    min-height: 100%;
+    width:70% ;
+    display: flex;
+    flex-direction: column;
+}
+
+.rbox-one{
+    background-color: white;
+    margin:15px 10px;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 15px;
+    justify-content: space-around;
+    padding: 25px 30px;
+}
+
+.rbo-one{
+    display: flex;
+    flex-direction: column;
+    border-right:2px solid gray;
+    padding-right: 50px;
+    
+}
+
+.sub-one{
+    font-size: 25px;
+}
+
+.su-one i{
+    border: 1px solid lightgreen;
+    border-radius: 50%;
+    background-color:lightgreen ;
+    padding: 2px 3px;
+}
+
+.s-one{
+    color: green;
+}
+
+.su-two i{
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color:red ;
+    padding: 2px 3px;
+}
+
+.s-two{
+    color: red;
+}
+
+.su-three i{
+    border: 1px solid lightgreen;
+    border-radius: 50%;
+    background-color:lightgreen ;
+    padding: 2px 3px;
+}
+
+.s-three{
+    color: green;
+}
+
+.su-four i{
+    border: 1px solid lightgreen;
+    border-radius: 50%;
+    background-color:lightgreen ;
+    padding: 2px 3px;
+}
+
+.s-four{
+    color: green;
+}
+
+.rbox-two-top{
+    display: flex;
+    height: 68vh;
+}
+
+.rbox-two{
+    display: flex;
+    flex-direction: column;
+    margin:10px 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 25px 30px;
+    height: 65vh;
+    width: 70%;
+    background-color: white;
+}
+
+.rbox-two-text{
+    font-size: 20px;
+}
+
+.rbo-two{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.rbo-two i{
+    border: 1px solid lightgreen;
+    border-radius: 50%;
+    background-color:lightgreen ;
+    padding: 2px 3px;
+    margin-right: 10px;
+}
+
+.rbo-two-text{
+    margin-right: 10px;
+}
+
+.rbox-three{
+    background-color: white;
+    margin:10px 1px;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 25px 30px;
+}
+
+.rbox-three-top i{
+    border: 1px solid rgb(204, 208, 211);
+    background-color: rgb(204, 208, 211);
+    margin-left:80px;
+    padding: 1px 2px;
+}
+
+.rbox-three-bet{
+    display: flex;
+    flex-direction: column;
+}
+
+.progress{
+    position: relative;
+    margin: 60px;
+    float:left;
+    text-align: center;
+  }
+  .barOverflow{ /* Wraps the rotating .bar */
+    position: relative;
+    overflow: hidden; /* Comment this line to understand the trick */
+    width: 180px; height: 90px; /* Half circle (overflow) */
+    margin-bottom: -13px; /* bring the numbers up */
+  }
+  .bar{
+    position: absolute;
+    top: 0; left: 0;
+    width: 180px; height: 180px; /* full circle! */
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 20px solid lightgreen;     /* half gray, */
+    border-bottom-color: lightgreen;  /* half azure */
+    border-right-color: lightgreen;
+  }
+  
+  .bar-text{
+    font-weight:600;
+    font-size:20px;
+  }
+
+  .rbox-three-bot{
+    display: flex;
+  }
+
+  .start{
+    padding-right: 30px;
+  }
+.between{
+    padding-right: 30px;
+}
+
+.rbox-four{
+    display: flex;
+    margin: 4px 8px;
+    width:auto;
+    background-color: white;
+    border: 1px solid white ;
+    border-radius: 15px;
+}
+.rbox-four-left{
+    border: solid 2px white;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.heading{
+    margin-left:30px;
+    margin-top:20px;
+}
+
+.default-podcast{
+    display: flex;
+    margin: 20px 10px 10px 20px;
+}
+
+.default-podcast1{
+    border: 2px solid rgb(194, 186, 186);
+    background-color: rgb(194, 186, 186);
+    padding: 6px 14px 3px 14px;
+    margin-right: 30px;
+    border-radius: 15px;
+    
+}
+
+.default-podcast2{
+    display: flex;
+    flex-direction: column;
+}
+
+.rbox-four-between{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 150px;
+    border: white 1px solid;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.rbox-four-bet{
+    flex: auto;
+}
+
+.timing{
+    display: flex;
+}
+
+.timing-left{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.timing-left span{
+    margin-top: 60px;
+}
+
+
+.timing-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.timing-right span{
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.rbox-four-right{
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    border: 1px solid lightgreen ;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.rbox-four-right-top{
+    display: flex;
+}
+
+.rbox-four-right-top span{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.rbox-four-right-top i{
+    margin-left: 100px;
+    margin-top: 42px;
+    background-color: rgb(194, 188, 188);
+    padding:2px 4px
+}
+
+.rbox-four-right-between{
+    margin:60px 50px;
+}
